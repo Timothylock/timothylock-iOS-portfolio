@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		224C8C451ADF6349000F89B7 /* segoeui.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 224C8C441ADF628B000F89B7 /* segoeui.ttf */; };
+		224C8C491ADF711F000F89B7 /* awards@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 224C8C461ADF711F000F89B7 /* awards@2x.png */; };
+		224C8C4A1ADF711F000F89B7 /* education@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 224C8C471ADF711F000F89B7 /* education@2x.png */; };
+		224C8C4F1ADF725B000F89B7 /* homepage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 224C8C4E1ADF725B000F89B7 /* homepage@2x.png */; };
+		224C8C531ADF7983000F89B7 /* connect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 224C8C501ADF7983000F89B7 /* connect@2x.png */; };
+		224C8C541ADF7983000F89B7 /* experience@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 224C8C511ADF7983000F89B7 /* experience@2x.png */; };
+		224C8C551ADF7983000F89B7 /* projects@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 224C8C521ADF7983000F89B7 /* projects@2x.png */; };
+		224C8C571AE0B1C9000F89B7 /* ExperienceTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224C8C561AE0B1C9000F89B7 /* ExperienceTabBarController.swift */; };
+		227F58DC1ADF494C00A0F76D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227F58DB1ADF494C00A0F76D /* AppDelegate.swift */; };
+		227F58E31ADF494C00A0F76D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 227F58E11ADF494C00A0F76D /* Main.storyboard */; };
+		227F58E51ADF494C00A0F76D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 227F58E41ADF494C00A0F76D /* Images.xcassets */; };
+		227F58E81ADF494C00A0F76D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 227F58E61ADF494C00A0F76D /* LaunchScreen.xib */; };
+		227F58F41ADF494C00A0F76D /* Timothy_LockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227F58F31ADF494C00A0F76D /* Timothy_LockTests.swift */; };
+		227F59081ADF4AEB00A0F76D /* burger.png in Resources */ = {isa = PBXBuildFile; fileRef = 227F58FD1ADF4AEB00A0F76D /* burger.png */; };
+		227F59091ADF4AEB00A0F76D /* burger@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 227F58FE1ADF4AEB00A0F76D /* burger@2x.png */; };
+		227F590B1ADF4AEB00A0F76D /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 227F59001ADF4AEB00A0F76D /* gear.png */; };
+		227F590C1ADF4AEB00A0F76D /* gear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 227F59011ADF4AEB00A0F76D /* gear@2x.png */; };
+		227F590D1ADF4AEB00A0F76D /* globe.png in Resources */ = {isa = PBXBuildFile; fileRef = 227F59021ADF4AEB00A0F76D /* globe.png */; };
+		227F590E1ADF4AEB00A0F76D /* globe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 227F59031ADF4AEB00A0F76D /* globe@2x.png */; };
+		227F590F1ADF4AEB00A0F76D /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 227F59041ADF4AEB00A0F76D /* profile.png */; };
+		227F59101ADF4AEB00A0F76D /* profile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 227F59051ADF4AEB00A0F76D /* profile@2x.png */; };
+		227F59111ADF4AEB00A0F76D /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 227F59061ADF4AEB00A0F76D /* star.png */; };
+		227F59121ADF4AEB00A0F76D /* star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 227F59071ADF4AEB00A0F76D /* star@2x.png */; };
+		227F59141ADF4B5100A0F76D /* FrostedSidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227F59131ADF4B5100A0F76D /* FrostedSidebar.swift */; };
+		227F59161ADF4B8C00A0F76D /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227F59151ADF4B8C00A0F76D /* TabBarController.swift */; };
+		227F59181ADF4CD000A0F76D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227F59171ADF4CD000A0F76D /* ViewController.swift */; };
+		227F591A1ADF545600A0F76D /* tim.png in Resources */ = {isa = PBXBuildFile; fileRef = 227F59191ADF545600A0F76D /* tim.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		227F58EE1ADF494C00A0F76D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 227F58CE1ADF494C00A0F76D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 227F58D51ADF494C00A0F76D;
+			remoteInfo = "Timothy Lock";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		224C8C441ADF628B000F89B7 /* segoeui.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = segoeui.ttf; sourceTree = "<group>"; };
+		224C8C461ADF711F000F89B7 /* awards@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "awards@2x.png"; sourceTree = "<group>"; };
+		224C8C471ADF711F000F89B7 /* education@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "education@2x.png"; sourceTree = "<group>"; };
+		224C8C4E1ADF725B000F89B7 /* homepage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homepage@2x.png"; sourceTree = "<group>"; };
+		224C8C501ADF7983000F89B7 /* connect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "connect@2x.png"; sourceTree = "<group>"; };
+		224C8C511ADF7983000F89B7 /* experience@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "experience@2x.png"; sourceTree = "<group>"; };
+		224C8C521ADF7983000F89B7 /* projects@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "projects@2x.png"; sourceTree = "<group>"; };
+		224C8C561AE0B1C9000F89B7 /* ExperienceTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExperienceTabBarController.swift; sourceTree = "<group>"; };
+		227F58D61ADF494C00A0F76D /* Timothy Lock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Timothy Lock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		227F58DA1ADF494C00A0F76D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		227F58DB1ADF494C00A0F76D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		227F58E21ADF494C00A0F76D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		227F58E41ADF494C00A0F76D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		227F58E71ADF494C00A0F76D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		227F58ED1ADF494C00A0F76D /* Timothy LockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Timothy LockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		227F58F21ADF494C00A0F76D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		227F58F31ADF494C00A0F76D /* Timothy_LockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timothy_LockTests.swift; sourceTree = "<group>"; };
+		227F58FD1ADF4AEB00A0F76D /* burger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burger.png; sourceTree = "<group>"; };
+		227F58FE1ADF4AEB00A0F76D /* burger@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "burger@2x.png"; sourceTree = "<group>"; };
+		227F59001ADF4AEB00A0F76D /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear.png; sourceTree = "<group>"; };
+		227F59011ADF4AEB00A0F76D /* gear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gear@2x.png"; sourceTree = "<group>"; };
+		227F59021ADF4AEB00A0F76D /* globe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = globe.png; sourceTree = "<group>"; };
+		227F59031ADF4AEB00A0F76D /* globe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "globe@2x.png"; sourceTree = "<group>"; };
+		227F59041ADF4AEB00A0F76D /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		227F59051ADF4AEB00A0F76D /* profile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile@2x.png"; sourceTree = "<group>"; };
+		227F59061ADF4AEB00A0F76D /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		227F59071ADF4AEB00A0F76D /* star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star@2x.png"; sourceTree = "<group>"; };
+		227F59131ADF4B5100A0F76D /* FrostedSidebar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrostedSidebar.swift; sourceTree = "<group>"; };
+		227F59151ADF4B8C00A0F76D /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		227F59171ADF4CD000A0F76D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		227F59191ADF545600A0F76D /* tim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tim.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		227F58D31ADF494C00A0F76D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227F58EA1ADF494C00A0F76D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		227F58CD1ADF494C00A0F76D = {
+			isa = PBXGroup;
+			children = (
+				227F59131ADF4B5100A0F76D /* FrostedSidebar.swift */,
+				227F58D81ADF494C00A0F76D /* Timothy Lock */,
+				227F58F01ADF494C00A0F76D /* Timothy LockTests */,
+				227F58D71ADF494C00A0F76D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		227F58D71ADF494C00A0F76D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				227F58D61ADF494C00A0F76D /* Timothy Lock.app */,
+				227F58ED1ADF494C00A0F76D /* Timothy LockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		227F58D81ADF494C00A0F76D /* Timothy Lock */ = {
+			isa = PBXGroup;
+			children = (
+				227F59171ADF4CD000A0F76D /* ViewController.swift */,
+				227F59151ADF4B8C00A0F76D /* TabBarController.swift */,
+				224C8C561AE0B1C9000F89B7 /* ExperienceTabBarController.swift */,
+				227F58DB1ADF494C00A0F76D /* AppDelegate.swift */,
+				227F58E11ADF494C00A0F76D /* Main.storyboard */,
+				227F58E41ADF494C00A0F76D /* Images.xcassets */,
+				227F58E61ADF494C00A0F76D /* LaunchScreen.xib */,
+				227F58D91ADF494C00A0F76D /* Supporting Files */,
+			);
+			path = "Timothy Lock";
+			sourceTree = "<group>";
+		};
+		227F58D91ADF494C00A0F76D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				224C8C501ADF7983000F89B7 /* connect@2x.png */,
+				224C8C511ADF7983000F89B7 /* experience@2x.png */,
+				224C8C521ADF7983000F89B7 /* projects@2x.png */,
+				224C8C4E1ADF725B000F89B7 /* homepage@2x.png */,
+				224C8C461ADF711F000F89B7 /* awards@2x.png */,
+				224C8C471ADF711F000F89B7 /* education@2x.png */,
+				224C8C441ADF628B000F89B7 /* segoeui.ttf */,
+				227F59191ADF545600A0F76D /* tim.png */,
+				227F58FD1ADF4AEB00A0F76D /* burger.png */,
+				227F58FE1ADF4AEB00A0F76D /* burger@2x.png */,
+				227F59001ADF4AEB00A0F76D /* gear.png */,
+				227F59011ADF4AEB00A0F76D /* gear@2x.png */,
+				227F59021ADF4AEB00A0F76D /* globe.png */,
+				227F59031ADF4AEB00A0F76D /* globe@2x.png */,
+				227F59041ADF4AEB00A0F76D /* profile.png */,
+				227F59051ADF4AEB00A0F76D /* profile@2x.png */,
+				227F59061ADF4AEB00A0F76D /* star.png */,
+				227F59071ADF4AEB00A0F76D /* star@2x.png */,
+				227F58DA1ADF494C00A0F76D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		227F58F01ADF494C00A0F76D /* Timothy LockTests */ = {
+			isa = PBXGroup;
+			children = (
+				227F58F31ADF494C00A0F76D /* Timothy_LockTests.swift */,
+				227F58F11ADF494C00A0F76D /* Supporting Files */,
+			);
+			path = "Timothy LockTests";
+			sourceTree = "<group>";
+		};
+		227F58F11ADF494C00A0F76D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				227F58F21ADF494C00A0F76D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		227F58D51ADF494C00A0F76D /* Timothy Lock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 227F58F71ADF494C00A0F76D /* Build configuration list for PBXNativeTarget "Timothy Lock" */;
+			buildPhases = (
+				227F58D21ADF494C00A0F76D /* Sources */,
+				227F58D31ADF494C00A0F76D /* Frameworks */,
+				227F58D41ADF494C00A0F76D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Timothy Lock";
+			productName = "Timothy Lock";
+			productReference = 227F58D61ADF494C00A0F76D /* Timothy Lock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		227F58EC1ADF494C00A0F76D /* Timothy LockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 227F58FA1ADF494C00A0F76D /* Build configuration list for PBXNativeTarget "Timothy LockTests" */;
+			buildPhases = (
+				227F58E91ADF494C00A0F76D /* Sources */,
+				227F58EA1ADF494C00A0F76D /* Frameworks */,
+				227F58EB1ADF494C00A0F76D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				227F58EF1ADF494C00A0F76D /* PBXTargetDependency */,
+			);
+			name = "Timothy LockTests";
+			productName = "Timothy LockTests";
+			productReference = 227F58ED1ADF494C00A0F76D /* Timothy LockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		227F58CE1ADF494C00A0F76D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Timothy Lock";
+				TargetAttributes = {
+					227F58D51ADF494C00A0F76D = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					227F58EC1ADF494C00A0F76D = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 227F58D51ADF494C00A0F76D;
+					};
+				};
+			};
+			buildConfigurationList = 227F58D11ADF494C00A0F76D /* Build configuration list for PBXProject "Timothy Lock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 227F58CD1ADF494C00A0F76D;
+			productRefGroup = 227F58D71ADF494C00A0F76D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				227F58D51ADF494C00A0F76D /* Timothy Lock */,
+				227F58EC1ADF494C00A0F76D /* Timothy LockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		227F58D41ADF494C00A0F76D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227F59081ADF4AEB00A0F76D /* burger.png in Resources */,
+				227F590B1ADF4AEB00A0F76D /* gear.png in Resources */,
+				224C8C541ADF7983000F89B7 /* experience@2x.png in Resources */,
+				224C8C4F1ADF725B000F89B7 /* homepage@2x.png in Resources */,
+				227F59121ADF4AEB00A0F76D /* star@2x.png in Resources */,
+				227F591A1ADF545600A0F76D /* tim.png in Resources */,
+				224C8C491ADF711F000F89B7 /* awards@2x.png in Resources */,
+				227F590E1ADF4AEB00A0F76D /* globe@2x.png in Resources */,
+				227F59091ADF4AEB00A0F76D /* burger@2x.png in Resources */,
+				227F590D1ADF4AEB00A0F76D /* globe.png in Resources */,
+				227F58E31ADF494C00A0F76D /* Main.storyboard in Resources */,
+				224C8C531ADF7983000F89B7 /* connect@2x.png in Resources */,
+				224C8C451ADF6349000F89B7 /* segoeui.ttf in Resources */,
+				227F58E81ADF494C00A0F76D /* LaunchScreen.xib in Resources */,
+				227F59101ADF4AEB00A0F76D /* profile@2x.png in Resources */,
+				227F59111ADF4AEB00A0F76D /* star.png in Resources */,
+				227F590F1ADF4AEB00A0F76D /* profile.png in Resources */,
+				224C8C4A1ADF711F000F89B7 /* education@2x.png in Resources */,
+				227F58E51ADF494C00A0F76D /* Images.xcassets in Resources */,
+				224C8C551ADF7983000F89B7 /* projects@2x.png in Resources */,
+				227F590C1ADF4AEB00A0F76D /* gear@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227F58EB1ADF494C00A0F76D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		227F58D21ADF494C00A0F76D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227F59181ADF4CD000A0F76D /* ViewController.swift in Sources */,
+				227F59141ADF4B5100A0F76D /* FrostedSidebar.swift in Sources */,
+				227F58DC1ADF494C00A0F76D /* AppDelegate.swift in Sources */,
+				227F59161ADF4B8C00A0F76D /* TabBarController.swift in Sources */,
+				224C8C571AE0B1C9000F89B7 /* ExperienceTabBarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227F58E91ADF494C00A0F76D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227F58F41ADF494C00A0F76D /* Timothy_LockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		227F58EF1ADF494C00A0F76D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 227F58D51ADF494C00A0F76D /* Timothy Lock */;
+			targetProxy = 227F58EE1ADF494C00A0F76D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		227F58E11ADF494C00A0F76D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				227F58E21ADF494C00A0F76D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		227F58E61ADF494C00A0F76D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				227F58E71ADF494C00A0F76D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		227F58F51ADF494C00A0F76D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		227F58F61ADF494C00A0F76D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		227F58F81ADF494C00A0F76D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Timothy Lock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		227F58F91ADF494C00A0F76D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Timothy Lock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		227F58FB1ADF494C00A0F76D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Timothy LockTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timothy Lock.app/Timothy Lock";
+			};
+			name = Debug;
+		};
+		227F58FC1ADF494C00A0F76D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Timothy LockTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timothy Lock.app/Timothy Lock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		227F58D11ADF494C00A0F76D /* Build configuration list for PBXProject "Timothy Lock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227F58F51ADF494C00A0F76D /* Debug */,
+				227F58F61ADF494C00A0F76D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		227F58F71ADF494C00A0F76D /* Build configuration list for PBXNativeTarget "Timothy Lock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227F58F81ADF494C00A0F76D /* Debug */,
+				227F58F91ADF494C00A0F76D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		227F58FA1ADF494C00A0F76D /* Build configuration list for PBXNativeTarget "Timothy LockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227F58FB1ADF494C00A0F76D /* Debug */,
+				227F58FC1ADF494C00A0F76D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 227F58CE1ADF494C00A0F76D /* Project object */;
+}
