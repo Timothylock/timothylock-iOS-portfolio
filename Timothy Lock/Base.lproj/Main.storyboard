@@ -11,6 +11,12 @@
             <string>SegoeUI-Light</string>
             <string>SegoeUI-Light</string>
             <string>SegoeUI-Light</string>
+            <string>SegoeUI-Light</string>
+            <string>SegoeUI-Light</string>
+            <string>SegoeUI-Light</string>
+            <string>SegoeUI-Light</string>
+            <string>SegoeUI-Light</string>
+            <string>SegoeUI-Light</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -341,12 +347,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="View Controller 3" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1G9-hb-Dug">
-                                <rect key="frame" x="235" y="289" width="131" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XC4-V9-aBf">
                                 <rect key="frame" x="-2" y="20" width="604" height="44"/>
                                 <items>
@@ -372,10 +372,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="XC4-V9-aBf" secondAttribute="trailing" constant="-18" id="HbT-Ud-kTE"/>
-                            <constraint firstAttribute="centerX" secondItem="1G9-hb-Dug" secondAttribute="centerX" id="id0-WF-nUO"/>
                             <constraint firstItem="XC4-V9-aBf" firstAttribute="leading" secondItem="ol3-BC-Uu4" secondAttribute="leadingMargin" constant="-18" id="k5E-UG-aGn"/>
                             <constraint firstItem="XC4-V9-aBf" firstAttribute="top" secondItem="JJu-pA-moa" secondAttribute="bottom" id="nAN-GX-vbx"/>
-                            <constraint firstAttribute="centerY" secondItem="1G9-hb-Dug" secondAttribute="centerY" id="pRg-br-2XJ"/>
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
@@ -397,12 +395,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="View Controller 3" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJP-la-scf">
-                                <rect key="frame" x="235" y="289" width="131" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RC3-RL-uwI">
                                 <rect key="frame" x="-2" y="20" width="604" height="44"/>
                                 <items>
@@ -424,14 +416,87 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="uoft_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="t01-yx-Fg8">
+                                <rect key="frame" x="16" y="83" width="126" height="102"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="102" id="Qdw-Kd-xgU"/>
+                                    <constraint firstAttribute="width" constant="126" id="jFj-wm-CZi"/>
+                                    <constraint firstAttribute="height" constant="102" id="rvm-ph-UKH"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="University of Toronto" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="A4a-FQ-flT">
+                                <rect key="frame" x="165" y="83" width="419" height="40"/>
+                                <fontDescription key="fontDescription" name="SegoeUI-Light" family="Segoe UI" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bachelor of Computer Science" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="HRY-kW-IsG">
+                                <rect key="frame" x="165" y="131" width="419" height="23"/>
+                                <fontDescription key="fontDescription" name="SegoeUI-Light" family="Segoe UI" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2014-2018" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="558-os-YQg">
+                                <rect key="frame" x="165" y="162" width="419" height="23"/>
+                                <fontDescription key="fontDescription" name="SegoeUI-Light" family="Segoe UI" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="YCDSB_Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="oXw-9o-I4m">
+                                <rect key="frame" x="16" y="211" width="126" height="102"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="102" id="BNV-RJ-a2x"/>
+                                    <constraint firstAttribute="height" constant="102" id="lwT-nY-COg"/>
+                                    <constraint firstAttribute="width" constant="126" id="sDx-iE-BOS"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="St. Augustine Catholic High School" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="fAI-dX-LYz">
+                                <rect key="frame" x="165" y="211" width="419" height="40"/>
+                                <fontDescription key="fontDescription" name="SegoeUI-Light" family="Segoe UI" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OSSD Diploma with Technology Specialist" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="1Bl-ed-aQb">
+                                <rect key="frame" x="165" y="259" width="419" height="23"/>
+                                <fontDescription key="fontDescription" name="SegoeUI-Light" family="Segoe UI" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2010-2014" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="jjH-wL-kpm">
+                                <rect key="frame" x="165" y="290" width="419" height="23"/>
+                                <fontDescription key="fontDescription" name="SegoeUI-Light" family="Segoe UI" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="hJP-la-scf" secondAttribute="centerX" id="4li-53-gNT"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="RC3-RL-uwI" secondAttribute="trailing" constant="-18" id="F2y-bv-5YT"/>
-                            <constraint firstItem="RC3-RL-uwI" firstAttribute="top" secondItem="fuu-RA-izP" secondAttribute="bottom" id="Lgd-ej-Yzg"/>
-                            <constraint firstAttribute="centerY" secondItem="hJP-la-scf" secondAttribute="centerY" id="tZk-22-dbn"/>
-                            <constraint firstItem="RC3-RL-uwI" firstAttribute="leading" secondItem="50m-Uz-9Jz" secondAttribute="leadingMargin" constant="-18" id="yDF-Mg-3fQ"/>
+                            <constraint firstItem="oXw-9o-I4m" firstAttribute="leading" secondItem="50m-Uz-9Jz" secondAttribute="leadingMargin" id="0yM-Cc-jdy"/>
+                            <constraint firstItem="RC3-RL-uwI" firstAttribute="top" secondItem="fuu-RA-izP" secondAttribute="bottom" id="4Yr-O8-xYv"/>
+                            <constraint firstItem="jjH-wL-kpm" firstAttribute="leading" secondItem="oXw-9o-I4m" secondAttribute="trailing" constant="23" id="4nD-a5-Sb1"/>
+                            <constraint firstItem="HRY-kW-IsG" firstAttribute="top" secondItem="A4a-FQ-flT" secondAttribute="bottom" constant="8" id="FIm-rR-ww7"/>
+                            <constraint firstItem="t01-yx-Fg8" firstAttribute="top" secondItem="RC3-RL-uwI" secondAttribute="bottom" constant="19" id="Fyw-Ng-JGh"/>
+                            <constraint firstItem="fAI-dX-LYz" firstAttribute="top" secondItem="558-os-YQg" secondAttribute="bottom" constant="26" id="HYq-NQ-ilH"/>
+                            <constraint firstItem="558-os-YQg" firstAttribute="top" secondItem="HRY-kW-IsG" secondAttribute="bottom" constant="8" id="IEv-qa-4ie"/>
+                            <constraint firstItem="A4a-FQ-flT" firstAttribute="top" secondItem="RC3-RL-uwI" secondAttribute="bottom" constant="19" id="MFh-oM-xlO"/>
+                            <constraint firstItem="1Bl-ed-aQb" firstAttribute="top" secondItem="fAI-dX-LYz" secondAttribute="bottom" constant="8" id="PHI-AO-auI"/>
+                            <constraint firstItem="A4a-FQ-flT" firstAttribute="leading" secondItem="t01-yx-Fg8" secondAttribute="trailing" constant="23" id="VfS-td-5RM"/>
+                            <constraint firstItem="jjH-wL-kpm" firstAttribute="trailing" secondItem="50m-Uz-9Jz" secondAttribute="trailingMargin" id="Xs2-BO-FSP"/>
+                            <constraint firstItem="558-os-YQg" firstAttribute="leading" secondItem="t01-yx-Fg8" secondAttribute="trailing" constant="23" id="aR0-b7-Q1j"/>
+                            <constraint firstItem="t01-yx-Fg8" firstAttribute="leading" secondItem="50m-Uz-9Jz" secondAttribute="leadingMargin" id="beQ-7y-bGS"/>
+                            <constraint firstItem="1Bl-ed-aQb" firstAttribute="trailing" secondItem="50m-Uz-9Jz" secondAttribute="trailingMargin" id="dAM-8P-oGr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RC3-RL-uwI" secondAttribute="trailing" constant="-18" id="eCs-dS-i5u"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fAI-dX-LYz" secondAttribute="trailing" id="fgd-C8-mvi"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="HRY-kW-IsG" secondAttribute="trailing" id="h6R-5R-f2M"/>
+                            <constraint firstItem="RC3-RL-uwI" firstAttribute="leading" secondItem="50m-Uz-9Jz" secondAttribute="leadingMargin" constant="-18" id="hae-4A-I9a"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="558-os-YQg" secondAttribute="trailing" id="kqv-4V-ddx"/>
+                            <constraint firstItem="1Bl-ed-aQb" firstAttribute="leading" secondItem="oXw-9o-I4m" secondAttribute="trailing" constant="23" id="nDh-Tx-0QI"/>
+                            <constraint firstItem="fAI-dX-LYz" firstAttribute="leading" secondItem="oXw-9o-I4m" secondAttribute="trailing" constant="23" id="ngY-MM-p5y"/>
+                            <constraint firstItem="oXw-9o-I4m" firstAttribute="top" secondItem="t01-yx-Fg8" secondAttribute="bottom" constant="26" id="oUn-TL-hoP"/>
+                            <constraint firstItem="A4a-FQ-flT" firstAttribute="top" secondItem="RC3-RL-uwI" secondAttribute="bottom" constant="19" id="ouc-uo-iKM"/>
+                            <constraint firstItem="jjH-wL-kpm" firstAttribute="top" secondItem="1Bl-ed-aQb" secondAttribute="bottom" constant="8" id="pBW-Wy-Exk"/>
+                            <constraint firstItem="HRY-kW-IsG" firstAttribute="leading" secondItem="t01-yx-Fg8" secondAttribute="trailing" constant="23" id="ubS-wY-FxK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="A4a-FQ-flT" secondAttribute="trailing" id="wM5-bF-kPf"/>
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
@@ -441,10 +506,10 @@
             </objects>
             <point key="canvasLocation" x="1114" y="1503"/>
         </scene>
-        <!--Education-->
+        <!--Connect-->
         <scene sceneID="7cK-Ow-jgI">
             <objects>
-                <viewController title="Education" id="aCj-Ow-xMd" customClass="WebViewController" customModule="Timothy_Lock" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Connect" id="aCj-Ow-xMd" customClass="WebViewController" customModule="Timothy_Lock" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="edP-xh-N2k"/>
                         <viewControllerLayoutGuide type="bottom" id="liW-jG-isK"/>
@@ -453,10 +518,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M4M-9E-4u4">
+                                <rect key="frame" x="0.0" y="512" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem systemItem="stop" id="Soa-Uh-WRp">
+                                        <connections>
+                                            <action selector="stop:" destination="aCj-Ow-xMd" id="f8K-Xn-RHg"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="pox-3j-YqS"/>
+                                    <barButtonItem systemItem="refresh" id="Xsp-K2-XUT">
+                                        <connections>
+                                            <action selector="doRefresh:" destination="aCj-Ow-xMd" id="B5g-2L-AxP"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="NMa-Up-xcZ"/>
+                                    <barButtonItem systemItem="rewind" id="xNs-rM-fTV">
+                                        <connections>
+                                            <action selector="goBack:" destination="aCj-Ow-xMd" id="1pV-GC-cs9"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="aGw-9S-si7"/>
+                                    <barButtonItem systemItem="fastForward" id="lyM-eP-wVZ">
+                                        <connections>
+                                            <action selector="goForward:" destination="aCj-Ow-xMd" id="WaB-fi-ghO"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0gy-n5-RpI">
                                 <rect key="frame" x="-2" y="20" width="604" height="44"/>
                                 <items>
-                                    <navigationItem title="Education" id="qBs-sh-MRQ">
+                                    <navigationItem title="Connect" id="qBs-sh-MRQ">
                                         <barButtonItem key="leftBarButtonItem" style="done" id="pIo-mu-GAj">
                                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Mx1-PV-GgU">
                                                 <rect key="frame" x="16" y="20" width="19" height="22"/>
@@ -475,25 +568,33 @@
                                 </items>
                             </navigationBar>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bE4-Gg-gOE">
-                                <rect key="frame" x="-2" y="64" width="604" height="487"/>
+                                <rect key="frame" x="0.0" y="64" width="604" height="448"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="bE4-Gg-gOE" secondAttribute="trailing" constant="-18" id="WGh-1C-Lrg"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="0gy-n5-RpI" secondAttribute="trailing" constant="-18" id="X31-6N-W2n"/>
-                            <constraint firstItem="bE4-Gg-gOE" firstAttribute="top" secondItem="0gy-n5-RpI" secondAttribute="bottom" id="c3y-pV-Wba"/>
-                            <constraint firstItem="0gy-n5-RpI" firstAttribute="leading" secondItem="jE9-Ye-FTH" secondAttribute="leadingMargin" constant="-18" id="gg2-lX-voe"/>
-                            <constraint firstItem="0gy-n5-RpI" firstAttribute="top" secondItem="edP-xh-N2k" secondAttribute="bottom" id="jy6-hW-Reh"/>
-                            <constraint firstItem="liW-jG-isK" firstAttribute="top" secondItem="bE4-Gg-gOE" secondAttribute="bottom" id="mCp-38-v1m"/>
-                            <constraint firstItem="bE4-Gg-gOE" firstAttribute="leading" secondItem="jE9-Ye-FTH" secondAttribute="leadingMargin" constant="-18" id="nTe-YM-7TR"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="0gy-n5-RpI" secondAttribute="trailing" constant="-18" id="s4J-N9-7I0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bE4-Gg-gOE" secondAttribute="trailing" constant="-18" id="03J-kV-af7"/>
+                            <constraint firstItem="bE4-Gg-gOE" firstAttribute="top" secondItem="0gy-n5-RpI" secondAttribute="bottom" id="2aD-wf-Jzi"/>
+                            <constraint firstItem="M4M-9E-4u4" firstAttribute="top" secondItem="bE4-Gg-gOE" secondAttribute="bottom" id="41G-lv-QFp"/>
+                            <constraint firstItem="bE4-Gg-gOE" firstAttribute="leading" secondItem="jE9-Ye-FTH" secondAttribute="leadingMargin" constant="-16" id="93F-zT-Rdy"/>
+                            <constraint firstItem="0gy-n5-RpI" firstAttribute="top" secondItem="edP-xh-N2k" secondAttribute="bottom" id="HVV-A8-cpQ"/>
+                            <constraint firstItem="liW-jG-isK" firstAttribute="top" secondItem="M4M-9E-4u4" secondAttribute="bottom" id="UuT-Ih-tJh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0gy-n5-RpI" secondAttribute="trailing" constant="-18" id="awE-Gl-9Wg"/>
+                            <constraint firstItem="M4M-9E-4u4" firstAttribute="leading" secondItem="jE9-Ye-FTH" secondAttribute="leadingMargin" constant="-16" id="eBY-2V-rJ0"/>
+                            <constraint firstItem="0gy-n5-RpI" firstAttribute="leading" secondItem="jE9-Ye-FTH" secondAttribute="leadingMargin" constant="-18" id="je1-Vh-uu9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="M4M-9E-4u4" secondAttribute="trailing" constant="-16" id="mQd-4b-Y2w"/>
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <tabBarItem key="tabBarItem" title="Item" id="JFi-zb-jki"/>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="goBack" destination="xNs-rM-fTV" id="4fL-CT-V7d"/>
+                        <outlet property="goForward" destination="lyM-eP-wVZ" id="ljg-dL-0dQ"/>
+                        <outlet property="reload" destination="Xsp-K2-XUT" id="1cm-bc-qZv"/>
+                        <outlet property="stop" destination="Soa-Uh-WRp" id="RtZ-sA-RtL"/>
                         <outlet property="webView" destination="bE4-Gg-gOE" id="E6J-sa-P9T"/>
                     </connections>
                 </viewController>
@@ -503,7 +604,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="YCDSB_Logo.png" width="434" height="500"/>
         <image name="burger" width="19" height="17"/>
         <image name="tim.png" width="641" height="1608"/>
+        <image name="uoft_logo.png" width="253" height="200"/>
     </resources>
 </document>
