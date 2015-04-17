@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ExperienceTabBarController: UITabBarController, UITabBarControllerDelegate {
+class TabBarController: UITabBarController, UITabBarControllerDelegate {
 	
 	var sidebar: FrostedSidebar!
 	
