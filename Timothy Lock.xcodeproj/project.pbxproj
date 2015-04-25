@@ -29,6 +29,7 @@
 		227F59161ADF4B8C00A0F76D /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227F59151ADF4B8C00A0F76D /* TabBarController.swift */; };
 		227F59181ADF4CD000A0F76D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227F59171ADF4CD000A0F76D /* ViewController.swift */; };
 		227F591A1ADF545600A0F76D /* tim.png in Resources */ = {isa = PBXBuildFile; fileRef = 227F59191ADF545600A0F76D /* tim.png */; };
+		229E086A1AEB488500920072 /* projectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229E08691AEB488500920072 /* projectViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		227F59151ADF4B8C00A0F76D /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		227F59171ADF4CD000A0F76D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		227F59191ADF545600A0F76D /* tim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tim.png; sourceTree = "<group>"; };
+		229E08691AEB488500920072 /* projectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = projectViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 		227F58D81ADF494C00A0F76D /* Timothy Lock */ = {
 			isa = PBXGroup;
 			children = (
+				229E08691AEB488500920072 /* projectViewController.swift */,
 				227F59171ADF4CD000A0F76D /* ViewController.swift */,
 				225C1D051AE0EA810079EEEE /* WebViewController.swift */,
 				227F59151ADF4B8C00A0F76D /* TabBarController.swift */,
@@ -275,6 +278,7 @@
 				227F59181ADF4CD000A0F76D /* ViewController.swift in Sources */,
 				225C1D061AE0EA810079EEEE /* WebViewController.swift in Sources */,
 				227F59141ADF4B5100A0F76D /* FrostedSidebar.swift in Sources */,
+				229E086A1AEB488500920072 /* projectViewController.swift in Sources */,
 				2204D1AF1AE0BC8600BBB83D /* ExpTabBarController.swift in Sources */,
 				227F58DC1ADF494C00A0F76D /* AppDelegate.swift in Sources */,
 				227F59161ADF4B8C00A0F76D /* TabBarController.swift in Sources */,

@@ -1,5 +1,5 @@
 //
-//  WebViewController.swift
+//  projectViewController.swift
 //  Timothy Lock
 //
 //  Created by Timothy Lock on 2015-04-17.
@@ -8,45 +8,37 @@
 
 import UIKit
 
-class WebViewController: UIViewController  {
-    
-    @IBOutlet var webView: UIWebView!
+class projectViewController: UIViewController  {
 
-
-
+    @IBOutlet var webProjView: UIWebView!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Load the webpage
-        let url = NSURL(string: "http://timothylock.ca/#connect")
+        let url = NSURL(string: "http://timothylock.ca/proj/apple/proj.html")
         let request = NSURLRequest(URL: url!)
-        webView.loadRequest(request)
-    }
-    
-    @IBAction func openURLSafari(sender: AnyObject) {
-        UIApplication.sharedApplication().openURL(NSURL(string: "http://timothylock.ca/")!)
-
+        webProjView.loadRequest(request)
     }
 
     @IBAction func doRefresh(AnyObject) {
         // Refresh Webpage
-        webView.reload()
+        webProjView.reload()
     }
     
     @IBAction func goBack(AnyObject) {
         // Go Back
-        webView.goBack()
+        webProjView.goBack()
     }
     
     @IBAction func goForward(AnyObject) {
         // Go forward
-        webView.goForward()
+        webProjView.goForward()
     }
     
     @IBAction func stop(AnyObject) {
         // Stop Loading
-        webView.stopLoading()
+        webProjView.stopLoading()
     }
     
     @IBAction func onBurger() {
