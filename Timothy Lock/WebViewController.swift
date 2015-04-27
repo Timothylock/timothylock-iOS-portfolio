@@ -23,11 +23,6 @@ class WebViewController: UIViewController  {
         let request = NSURLRequest(URL: url!)
         webView.loadRequest(request)
     }
-    
-    @IBAction func openURLSafari(sender: AnyObject) {
-        UIApplication.sharedApplication().openURL(NSURL(string: "http://timothylock.ca/")!)
-
-    }
 
     @IBAction func doRefresh(AnyObject) {
         // Refresh Webpage

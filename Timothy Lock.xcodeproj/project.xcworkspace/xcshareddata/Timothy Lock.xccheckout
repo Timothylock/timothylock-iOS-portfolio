@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>8FB57065-6043-49FC-9C02-15F116DDC37A</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Timothy Lock</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>A667525A77A3380EE8816C9D78F13EB324E2408E</key>
 		<string>https://github.com/Timothylock/timothylock-iOS-portfolio.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Timothy Lock.xcodeproj/project.xcworkspace</string>
+	<string>Timothy Lock.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>A667525A77A3380EE8816C9D78F13EB324E2408E</key>
